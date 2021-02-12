@@ -8,7 +8,7 @@ const FirstPage=(props)=>{
 
   const [showLogin, setShowLogin] = React.useState(false);
 
-  const [role, setRole] = useState('Teacher');
+  const [role, setRole] = useState('Student');
   let { userDetails } = props;
 const c=0;
 
